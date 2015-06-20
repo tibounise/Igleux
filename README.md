@@ -8,4 +8,5 @@ Please see the `UNLICENSE` file for more informations. You are free to do anythi
 
 ## Neat things
 
- * Intel LGA775 heatsink footprint
+ * HM-10 Bluetooth module
+ * Intel LGA775 heatsink
