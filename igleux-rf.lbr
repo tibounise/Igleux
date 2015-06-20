@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>RF modules, RF chips, antennas</description>
+<packages>
+<package name="HM-10">
+<description>&lt;h2&gt;Default package for HM-10 module.&lt;/h2&gt;</description>
+<wire x1="-6.5" y1="13.45" x2="6.5" y2="13.45" width="0.127" layer="51"/>
+<wire x1="-6.5" y1="-13.45" x2="-6.5" y2="13.45" width="0.127" layer="51"/>
+<wire x1="6.5" y1="-13.45" x2="6.5" y2="13.45" width="0.127" layer="51"/>
+<smd name="14" x="-5.23" y="-13.45" dx="1" dy="1.8" layer="1" rot="R180"/>
+<smd name="15" x="-3.73" y="-13.45" dx="1" dy="1.8" layer="1" rot="R180"/>
+<smd name="16" x="-2.23" y="-13.45" dx="1" dy="1.8" layer="1" rot="R180"/>
+<smd name="17" x="-0.73" y="-13.45" dx="1" dy="1.8" layer="1" rot="R180"/>
+<smd name="18" x="0.77" y="-13.45" dx="1" dy="1.8" layer="1" rot="R180"/>
+<wire x1="-6.5" y1="-13.45" x2="6.5" y2="-13.45" width="0.127" layer="51"/>
+<smd name="19" x="2.27" y="-13.45" dx="1" dy="1.8" layer="1" rot="R180"/>
+<smd name="20" x="3.77" y="-13.45" dx="1" dy="1.8" layer="1" rot="R180"/>
+<smd name="21" x="5.27" y="-13.45" dx="1" dy="1.8" layer="1" rot="R180"/>
+<smd name="1" x="-6.5" y="6.35" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="34" x="6.5" y="6.35" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="2" x="-6.5" y="4.85" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="3" x="-6.5" y="3.35" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="4" x="-6.5" y="1.85" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="5" x="-6.5" y="0.35" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="6" x="-6.5" y="-1.15" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="7" x="-6.5" y="-2.65" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="8" x="-6.5" y="-4.15" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="9" x="-6.5" y="-5.65" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="10" x="-6.5" y="-7.15" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="11" x="-6.5" y="-8.65" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="12" x="-6.5" y="-10.15" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="13" x="-6.5" y="-11.65" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="33" x="6.5" y="4.85" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="32" x="6.5" y="3.35" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="31" x="6.5" y="1.85" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="30" x="6.5" y="0.35" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="29" x="6.5" y="-1.15" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="28" x="6.5" y="-2.65" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="27" x="6.5" y="-4.15" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="26" x="6.5" y="-5.65" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="25" x="6.5" y="-7.15" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="24" x="6.5" y="-8.65" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="23" x="6.5" y="-10.15" dx="1" dy="1.8" layer="1" rot="R270"/>
+<smd name="22" x="6.5" y="-11.65" dx="1" dy="1.8" layer="1" rot="R270"/>
+<wire x1="-8.255" y1="13.97" x2="-8.255" y2="-15.24" width="0.127" layer="21"/>
+<wire x1="-8.255" y1="-15.24" x2="8.255" y2="-15.24" width="0.127" layer="21"/>
+<wire x1="8.255" y1="-15.24" x2="8.255" y2="13.97" width="0.127" layer="21"/>
+<wire x1="8.255" y1="13.97" x2="-8.255" y2="13.97" width="0.127" layer="21"/>
+<text x="0" y="12.065" size="1.27" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="10.16" size="0.8128" layer="27" font="vector" align="center">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="HM-10">
+<pin name="UART_CTS" x="-17.78" y="-15.24" length="middle"/>
+<pin name="UART_RX" x="-17.78" y="-12.7" length="middle" direction="in"/>
+<pin name="UART_TX" x="-17.78" y="-10.16" length="middle" direction="out"/>
+<pin name="UART_RTS" x="-17.78" y="-17.78" length="middle"/>
+<pin name="RESETB" x="-17.78" y="-5.08" length="middle"/>
+<pin name="VCC" x="-17.78" y="10.16" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-17.78" y="0" length="middle" direction="pwr"/>
+<pin name="USB_D-" x="-17.78" y="15.24" length="middle"/>
+<pin name="USB_D+" x="-17.78" y="17.78" length="middle"/>
+<pin name="PIO0" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="PIO1" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="PIO2" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="PIO3" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="PIO4" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="PIO5" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="PIO6" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="PIO7" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="PIO8" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="PIO9" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="PIO10" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="PIO11" x="17.78" y="10.16" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<pin name="GND@2" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<pin name="GND@3" x="-17.78" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND@4" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<text x="-12.7" y="22.86" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-12.7" y="-22.86" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HM-10">
+<description>&lt;h1&gt;JNHuaMao HM-10 Bluetooth 4.0 module&lt;/h1&gt;
+
+&lt;p&gt;Bluetooth module based on Texas Instruments CC2540/CC2541 chips.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="HM-10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HM-10">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="13"/>
+<connect gate="G$1" pin="GND@2" pad="14"/>
+<connect gate="G$1" pin="GND@3" pad="21"/>
+<connect gate="G$1" pin="GND@4" pad="22"/>
+<connect gate="G$1" pin="PIO0" pad="23"/>
+<connect gate="G$1" pin="PIO1" pad="24"/>
+<connect gate="G$1" pin="PIO10" pad="33"/>
+<connect gate="G$1" pin="PIO11" pad="34"/>
+<connect gate="G$1" pin="PIO2" pad="25"/>
+<connect gate="G$1" pin="PIO3" pad="26"/>
+<connect gate="G$1" pin="PIO4" pad="27"/>
+<connect gate="G$1" pin="PIO5" pad="28"/>
+<connect gate="G$1" pin="PIO6" pad="29"/>
+<connect gate="G$1" pin="PIO7" pad="30"/>
+<connect gate="G$1" pin="PIO8" pad="31"/>
+<connect gate="G$1" pin="PIO9" pad="32"/>
+<connect gate="G$1" pin="RESETB" pad="11"/>
+<connect gate="G$1" pin="UART_CTS" pad="3"/>
+<connect gate="G$1" pin="UART_RTS" pad="4"/>
+<connect gate="G$1" pin="UART_RX" pad="2"/>
+<connect gate="G$1" pin="UART_TX" pad="1"/>
+<connect gate="G$1" pin="USB_D+" pad="20"/>
+<connect gate="G$1" pin="USB_D-" pad="15"/>
+<connect gate="G$1" pin="VCC" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
