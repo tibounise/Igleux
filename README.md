@@ -10,3 +10,4 @@ Please see the `UNLICENSE` file for more informations. You are free to do anythi
 
  * HM-10 Bluetooth module
  * Intel LGA775 heatsink
+ * Texas Instruments DAC8830
